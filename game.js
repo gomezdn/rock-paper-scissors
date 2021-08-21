@@ -12,10 +12,10 @@ function rockPaperOrScissors(){
             return ("Rock")
             break;
         case "2":
-            return ("Scissors")
+            return ("Paper")
             break;
         case "3":
-            return ("Paper")
+            return ("Scissors")
             break;
         default:
             alert("Please enter a number between 1-3");
