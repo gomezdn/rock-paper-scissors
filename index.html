@@ -8,49 +8,55 @@
     <link rel='stylesheet' type='text/css' media='screen' href='reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='game.js' defer></script>
+    <script src='script.js' defer></script>
 </head>
 <body>
-
     <div id="results">
-        <div>
+        <div class="resultsDiv">
             <p>Computer score</p>
             <p id="comScore">0</p>
         </div>
-        <div id="userScore">
+        <div class="resultsDiv" id="userScore">
             <p>User score</p>
             <p id="userScore">0</p>
         </div>
-
     </div>
 
-    <div id="instructions">
-        <p>Choose your weapon against computer!</p>
-        <p>The first one to reach 5 points wins the game.</p>
-
+    <div id="gameCourse">
+        <p></p>
     </div>
+
+
+    <button id="controlBtn" type="button">NEW GAME</button>
+
+
+    <p id="instructions">
+        Choose your weapon against computer!
+        <br>
+        The first one to reach 5 points wins the game.
+    </p>
+
 
     <div id="buttons">
-        <div>
+        <div class="choices">
             <span>ROCK</span>
-            <button id="rock" type="button" value="rock">
+            <button class="choiceBtn" type="button" value="rock">
                 <img src="images/rock.png">
             </button>
         </div>
-
-        <div>
+        <div class="choices">
             <span>PAPER</span>
-            <button id="paper" type="button" value="paper">
+            <button class="choiceBtn" type="button" value="paper">
                 <img src="images/paper.png">
             </button>
         </div>
-
-        <div>
+        <div class="choices">
             <span>SCISSORS</span>
-            <button id="scissors" type="button" value="scissors">
+            <button class="choiceBtn" type="button" value="scissors">
                 <img src="images/scissors.png">
             </button>
         </div>
-
     </div>
+
 </body>
 </html>
