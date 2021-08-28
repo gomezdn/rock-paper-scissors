@@ -22,8 +22,9 @@ body {
 
 .resultsDiv {
     text-align: center;
-    border: 2px solid grey;
-    margin: 0
+    border: 3.5px dashed maroon;
+    margin: 0;
+    padding: 2%;
 }
 
 #instructions {
@@ -49,7 +50,6 @@ p, span {
 }
 
 .choiceBtn {
-    background-color: lightblue;
     scale: 0.7;
     border: none;
     transition: all 0.05s;
@@ -67,16 +67,22 @@ img {
     border-radius: 10px;
 }
 
-.selected {
+.choiceSelected {
     scale: 0.725;
 }
 
-#controlBtn {
+
+.controlBtn {
     padding: 0.5% 1% 0.5% 1%;
     background-color: rgb(69, 136, 158);
     border: 1px solid black;
     color: pink;
-    transition: all 0.005s;
+    transition: all 0.08s;
+    border-radius: 3px;
+}
+
+.newGame {
+    background-color: rgb(145, 203, 223);
 }
 
 #gameCourse {
