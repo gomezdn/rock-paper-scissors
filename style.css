@@ -1,0 +1,91 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+
+#results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-self: center;
+    font-family: monospace;
+    font-size: 1.3em;
+    width: 50%;
+    margin-top: 2em;
+}
+
+.resultsDiv {
+    text-align: center;
+    border: 3.5px dashed maroon;
+    margin: 0;
+    padding: 2%;
+}
+
+#instructions {
+    text-align: center;
+ 
+}
+
+p, span {
+    font-family: monospace;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    user-select: none;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.choiceBtn {
+    scale: 0.7;
+    border: none;
+    transition: all 0.05s;
+}
+
+.choices {
+    width: 340px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    box-shadow: 0 0 5px 7px goldenrod;
+    border-radius: 10px;
+}
+
+.choiceSelected {
+    scale: 0.725;
+}
+
+
+.controlBtn {
+    padding: 0.5% 1% 0.5% 1%;
+    background-color: rgb(69, 136, 158);
+    border: 1px solid black;
+    color: pink;
+    transition: all 0.08s;
+    border-radius: 3px;
+}
+
+.newGame {
+    background-color: rgb(145, 203, 223);
+}
+
+#gameCourse {
+    text-align: center;
+    color: darkblue;
+}

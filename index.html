@@ -5,9 +5,58 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Rock Paper Scissors</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src='game.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='game.js' defer></script>
+    <script src='script.js' defer></script>
 </head>
 <body>
-    
+    <div id="results">
+        <div class="resultsDiv">
+            <p>Computer score</p>
+            <p id="comScore">0</p>
+        </div>
+        <div class="resultsDiv">
+            <p>User score</p>
+            <p id="userScore">0</p>
+        </div>
+    </div>
+
+    <div>
+        <p id="gameCourse">-</p>
+    </div>
+
+
+    <button class="controlBtn" type="button">NEW GAME</button>
+
+
+    <p id="instructions">
+        Choose your weapon against computer!
+        <br>
+        The first one to reach 5 points wins the game.
+    </p>
+
+
+    <div id="buttons">
+        <div class="choices">
+            <span>ROCK</span>
+            <button class="choiceBtn" type="button" value="Rock">
+                <img src="images/rock.png">
+            </button>
+        </div>
+        <div class="choices">
+            <span>PAPER</span>
+            <button class="choiceBtn" type="button" value="Paper">
+                <img src="images/paper.png">
+            </button>
+        </div>
+        <div class="choices">
+            <span>SCISSORS</span>
+            <button class="choiceBtn" type="button" value="Scissors">
+                <img src="images/scissors.png">
+            </button>
+        </div>
+    </div>
+
 </body>
 </html>
