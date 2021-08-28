@@ -1,2 +1,2 @@
 # rock-paper-scissors
- A console-based 'Rock, paper, scissors" game made in JS.
+An interactive 'Rock, Paper, Scissors' game made in JS, for The Odin Project curriculum.
