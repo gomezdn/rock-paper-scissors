@@ -53,6 +53,7 @@ p, span {
     scale: 0.7;
     border: none;
     transition: all 0.05s;
+    cursor: pointer;
 }
 
 .choices {
